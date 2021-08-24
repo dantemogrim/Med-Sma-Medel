@@ -5,13 +5,17 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Projekttitel</title>
 		<link rel="shortcut icon" href="TemplateData/favicon.ico" />
-		<link rel="stylesheet" href="TemplateData/style.css" />
+		<!--	<link rel="stylesheet" href="TemplateData/style.css" /> -->
+		<link rel="stylesheet" href="global.css" />
 	</head>
 	<body>
-		<h1>Projekttitel</h1>
-		<a href="/about">About</a>
-		<h4>Restart</h4>
-		<h4>Help</h4>
+		<nav>
+			<h1>Projekttitel</h1>
+			<a href="/about">About</a>
+			<a href="/help">Help</a>
+			<a href="#">Restart</a>
+		</nav>
+
 		<div id="unity-container" class="unity-desktop">
 			<canvas id="unity-canvas" width="960" height="600"></canvas>
 			<div id="unity-loading-bar">
@@ -20,15 +24,14 @@
 					<div id="unity-progress-bar-full"></div>
 				</div>
 			</div>
-			<div id="unity-mobile-warning">
-				WebGL builds are not supported on mobile devices.
-			</div>
+			<div id="unity-mobile-warning"></div>
 			<div id="unity-footer">
 				<div id="unity-webgl-logo"></div>
 				<div id="unity-fullscreen-button"></div>
-				<div id="unity-build-title">WebGLtesting</div>
+				<div id="unity-build-title"></div>
 			</div>
 		</div>
+
 		<script>
 			const buildUrl = 'Build';
 			const loaderUrl = buildUrl + '/Builds.loader.js';
