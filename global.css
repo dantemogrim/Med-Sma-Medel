@@ -21,7 +21,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
 	background-color: var(--beige);
 }
 
@@ -30,8 +29,13 @@ a {
 	text-decoration: none;
 }
 
-h1 {
+.warmth {
 	color: var(--warmth);
+	font-weight: bold;
+}
+
+h1 {
+	color: var(--dusk);
 }
 
 nav {
@@ -42,8 +46,19 @@ nav {
 	align-items: center;
 }
 
+button {
+	padding: 5px;
+	background-color: var(--ocean);
+	color: white;
+	margin: 5px;
+}
+
 canvas {
 	height: calc(100vh - 70px);
+	border-width: 20px;
+	border-color: white;
+	border-style: solid;
+	border-radius: 5px;
 }
 
 /* Articles. */
@@ -57,7 +72,15 @@ article {
 	background-color: white;
 	margin: 2%;
 	padding: 2%;
+	border-radius: 5px;
+	width: 65vw;
 }
+
+li {
+	list-style-type: none;
+}
+
+/* Everything text. */
 
 @font-face {
 	font-family: 'Lota Grotesque';
@@ -66,4 +89,8 @@ article {
 
 * {
 	font-family: 'Lota Grotesque', Verdana, Arial, Helvetica, sans-serif;
+}
+
+.creators {
+	color: var(--ocean);
 }
