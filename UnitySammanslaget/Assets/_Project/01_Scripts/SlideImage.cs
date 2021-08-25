@@ -1,6 +1,7 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 namespace _Project._01_Scripts
 {
@@ -12,10 +13,10 @@ namespace _Project._01_Scripts
         public float newPosY = 450f;
 
         public GameObject[] gameObjectsToActivate;
-        
+
         private RectTransform rectTransform;
-        float originalPosX;
-        float originalPosY;
+        private float originalPosX;
+        private float originalPosY;
 
         private void Start()
         {
