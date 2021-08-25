@@ -895,6 +895,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1037402830}
+        m_TargetAssemblyTypeName: _Project._01_Scripts.AudioManager, Assembly-CSharp
+        m_MethodName: PlayBG
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: streetbg
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &209327050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2777,13 +2789,13 @@ MonoBehaviour:
   arrowClip: {fileID: 8300000, guid: 57328bacc342d0f4495e738cdf7ecc70, type: 3}
   streetBgClip: {fileID: 8300000, guid: 7511c859d637f3d478c6bf023ec5cefd, type: 3}
   recyclingBgClip: {fileID: 8300000, guid: 6b854b6399e402f47ad322263ee36650, type: 3}
-  introVoiceClip: {fileID: 8300000, guid: a0db055a43996ab4bb0f41b8e0f8f18a, type: 3}
-  clothesVoiceClip: {fileID: 8300000, guid: a0db055a43996ab4bb0f41b8e0f8f18a, type: 3}
-  preRecyclingVoiceClip: {fileID: 8300000, guid: a0db055a43996ab4bb0f41b8e0f8f18a, type: 3}
-  recyclingVoiceClip: {fileID: 8300000, guid: a0db055a43996ab4bb0f41b8e0f8f18a, type: 3}
-  preCellPhoneVoiceClip: {fileID: 8300000, guid: a0db055a43996ab4bb0f41b8e0f8f18a, type: 3}
-  cellPhoneVoiceClip: {fileID: 8300000, guid: a0db055a43996ab4bb0f41b8e0f8f18a, type: 3}
-  endVoiceClip: {fileID: 8300000, guid: a0db055a43996ab4bb0f41b8e0f8f18a, type: 3}
+  introVoiceClip: {fileID: 8300000, guid: 07ea001abb0ab5c42b452247f5223893, type: 3}
+  clothesVoiceClip: {fileID: 8300000, guid: 65911affc2b45f14c9c9c05512adf579, type: 3}
+  preRecyclingVoiceClip: {fileID: 8300000, guid: fb63b3a768eefdd4fb336f4868f8e83b, type: 3}
+  recyclingVoiceClip: {fileID: 8300000, guid: 7536b33b0ec6d4146b85842b50fe9bc0, type: 3}
+  preCellPhoneVoiceClip: {fileID: 8300000, guid: a886b365815289749a2b71459bc25a75, type: 3}
+  cellPhoneVoiceClip: {fileID: 8300000, guid: ad2a11b36ae1efd4ebbd3735a39fe11e, type: 3}
+  endVoiceClip: {fileID: 8300000, guid: 19f2a59c13c99d0428f45c3cbc9fb2b4, type: 3}
   audioOff: 0
   currentFxVolume: 0
 --- !u!4 &1037402831
@@ -4945,6 +4957,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1037402830}
+        m_TargetAssemblyTypeName: _Project._01_Scripts.AudioManager, Assembly-CSharp
+        m_MethodName: PlayBG
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: streetbg
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!222 &1514412796
