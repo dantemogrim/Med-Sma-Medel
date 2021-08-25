@@ -25,6 +25,13 @@ namespace _Project._01_Scripts
         public AudioClip preCellPhoneVoiceClip;
         public AudioClip cellPhoneVoiceClip;
         public AudioClip endVoiceClip;
+        public AudioClip resultIntroClip;
+        public AudioClip resultClothesA;
+        public AudioClip resultClothesB;
+        public AudioClip resultRecyclingA;
+        public AudioClip resultRecyclingB;
+        public AudioClip resultCellPhoneA;
+        public AudioClip resultCellPhoneB;
 
         public bool audioOff;
         public float currentFxVolume;
@@ -69,6 +76,13 @@ namespace _Project._01_Scripts
                 "precellphone" => preCellPhoneVoiceClip,
                 "cellphone" => cellPhoneVoiceClip,
                 "end" => endVoiceClip,
+                "result" => resultIntroClip,
+                "resultclothesa" => resultClothesA,
+                "resultclothesb" => resultClothesB,
+                "resultrecyclinga" => resultRecyclingA,
+                "resultrecyclingb" => resultRecyclingB,
+                "resultcellphonea" => resultCellPhoneA,
+                "resultcellphoneb" => resultCellPhoneB,
                 _ => null
             };
             
@@ -95,9 +109,7 @@ namespace _Project._01_Scripts
                 audioSourceVoice.volume = 0;
             }
             else {
-                currentFxVolume = fxVolume;
-                audioSourceBG.volume = bgVolume;
-                audioSourceVoice.volume = voiceVolume;
+                SetVolume();
             }
         }
     }
