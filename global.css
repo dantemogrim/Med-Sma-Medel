@@ -46,13 +46,6 @@ nav {
 	align-items: center;
 }
 
-button {
-	padding: 5px;
-	background-color: var(--ocean);
-	color: white;
-	margin: 5px;
-}
-
 /* Articles. */
 
 h2 {
@@ -83,6 +76,7 @@ li {
 	font-family: 'Lota Grotesque', Verdana, Arial, Helvetica, sans-serif;
 }
 
-.creators {
+.creators,
+h3 {
 	color: var(--ocean);
 }
