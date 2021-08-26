@@ -91,7 +91,6 @@ li {
 	font-family: 'Lota Grotesque', Verdana, Arial, Helvetica, sans-serif;
 }
 
-.creators,
-h3 {
+.creators {
 	color: var(--ocean);
 }
