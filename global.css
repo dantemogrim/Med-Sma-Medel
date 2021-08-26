@@ -10,6 +10,10 @@
 	--sun: #f6cd2d;
 }
 
+div {
+	color: var(--warmth);
+}
+
 svg {
 	width: 300px;
 }
@@ -44,6 +48,9 @@ a:hover {
 }
 
 h1 {
+	display: flex;
+	width: 200px;
+	justify-content: space-evenly;
 	color: var(--dusk);
 }
 
