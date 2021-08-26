@@ -10,6 +10,10 @@
 	--sun: #f6cd2d;
 }
 
+svg {
+	width: 300px;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -41,6 +45,10 @@ a:hover {
 
 h1 {
 	color: var(--dusk);
+}
+
+img {
+	width: 200px;
 }
 
 nav {

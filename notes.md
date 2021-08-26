@@ -1,21 +1,20 @@
 # Notes
 
-### Text
-
-- lättbegriplig titel "välgörenheldel"
-- medmänsklighet
-- texten i google drive 600characters
-
 ### css
 
-- on hover
-- box shadow till canvas i vitt?
-- rundade hörn på canvas?
-
-### js
-
-- canvas fade in on load
+- "om oss" lite åt sidan, justera. _ hot reload javascript???? _
+- Så naven inte hamnar under canvas vid litet fönster.
 
 ### annat
 
-- logotype baserat på titel + favicon
+- logotype baserat på titel + favicon.
+
+- understrykningar på länkarna?
+- länkarna ur funktion?
+
+- canvas i mobile?
+
+---
+
+- döpa om projekt titel på github - prata med linus först
+- ändra länk till projektet.
