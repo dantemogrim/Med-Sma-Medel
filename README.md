@@ -11,14 +11,14 @@ _Note: This project is only meant for desktop usage._
 
 ## :stew: Instructions
 
-A direct link to the project can be found [here]().
+A direct link to the project can be found [here](https://medsmamedel.vercel.app/).
 
 _Optionally:_
 
 1. Clone this repository onto your computer.
-2. In your CLI type: `git clone https://github.com/mogrim-91/Nooks-Online-Summer-Camp.git`
-3. Type `cd Nooks-Online-Summer-Camp/`
-4. Followed by these three commands: `npm install`, `npm run build` and lastly `npm run dev`
+2. In your CLI type: `git clone x`
+3. Type `cd x`
+4. Followed by these commands: `x`.
 5. Your CLI should now have given you a localhost to access the project from. Type it in your url on your local browser and access the project from there.
 
 ## :seedling: Creators
