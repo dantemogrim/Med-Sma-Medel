@@ -53,14 +53,6 @@ button {
 	margin: 5px;
 }
 
-canvas {
-	height: calc(100vh - 70px);
-	border-width: 20px;
-	border-color: white;
-	border-style: solid;
-	border-radius: 5px;
-}
-
 /* Articles. */
 
 h2 {
