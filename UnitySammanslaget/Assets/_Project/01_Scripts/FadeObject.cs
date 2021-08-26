@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace _Project._01_Scripts
 {
-    public class FadeInObj : MonoBehaviour
+    public class FadeObject : MonoBehaviour
     {
         public float delayTime = 0f;
         public float fadeInTime = 1f;
@@ -43,17 +43,30 @@ namespace _Project._01_Scripts
             foreach (GameObject go in gameObjectsToActivate)
                 go.SetActive(true);
 
-            if (!autoFadeOut)
-                yield break;
-        
-            time = 0;
+            if (autoFadeOut)
+                StartCoroutine(FadeOutRoutine());
+        }
+
+        public void FadeOut()
+        {
+            StartCoroutine(FadeOutRoutine());
+        }
+
+        private IEnumerator FadeOutRoutine()
+        {
+            CanvasGroup canvasGroup = TryGetComponent(out CanvasGroup canvas)
+                ? canvas
+                : gameObject.AddComponent<CanvasGroup>();
+            canvasGroup.alpha = 1;
+            
+            float time = 0;
             while (time < fadeOutTime) {
                 canvasGroup.alpha = Mathf.SmoothStep(1, 0, time / fadeOutTime);
                 time += Time.deltaTime;
                 yield return null;
             }
-
-
+            
+            gameObject.SetActive(false);
         }
     }
 }

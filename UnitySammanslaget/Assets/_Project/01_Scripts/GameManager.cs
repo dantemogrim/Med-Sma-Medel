@@ -15,7 +15,7 @@ namespace _Project._01_Scripts
         private bool DonatedRecycledMoney { get; set; }
         private bool LentApartment { get; set; }
 
-        public bool voiceActivated;
+        public bool voiceActivated = true;
 
         public VoiceAudio clothesVoiceAudio;
         public VoiceAudio recyclingVoiceAudio;

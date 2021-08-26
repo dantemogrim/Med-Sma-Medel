@@ -3,19 +3,14 @@ using UnityEngine;
 
 namespace _Project._01_Scripts
 {
-    public class FadeOutTextObj : MonoBehaviour
+    public class FadeOutObject : MonoBehaviour
     {
         public float fadeOutTime = 1f;
         public bool deactivateAfterFadeOut;
-        
-        private Coroutine fadeOutRoutine;
 
         public void Execute()
         {
-            if (fadeOutRoutine != null)
-                StopCoroutine(fadeOutRoutine);
-
-            fadeOutRoutine = StartCoroutine(FadeOutRoutine());
+            StartCoroutine(FadeOutRoutine());
         }
 
         private IEnumerator FadeOutRoutine()
@@ -31,9 +26,6 @@ namespace _Project._01_Scripts
                 yield return null;
             }
 
-            canvasGroup.alpha = 1;
-            fadeOutRoutine = null;
-            
             if (deactivateAfterFadeOut && gameObject.activeInHierarchy)
                 gameObject.SetActive(false);
         }

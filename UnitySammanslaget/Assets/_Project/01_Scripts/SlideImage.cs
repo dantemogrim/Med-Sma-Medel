@@ -7,6 +7,7 @@ namespace _Project._01_Scripts
 {
     public class SlideImage : MonoBehaviour
     {
+        public float delayTimeOnReset = 1f;
         public float slideTime = 3f;
     
         public float newPosX = 0f;
@@ -77,6 +78,7 @@ namespace _Project._01_Scripts
         
         private IEnumerator ResetPositionRoutine()
         {
+            yield return new WaitForSeconds(delayTimeOnReset);
             Vector3 localPosition = rectTransform.localPosition;
             float currentPosX = localPosition.x;
             float currentPosY = localPosition.y;
