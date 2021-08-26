@@ -1,4 +1,4 @@
-# Sammanslaget
+# Med Små Medel
 
 <img src="https://media.giphy.com/media/52Fzb15SPPaE67hwnD/giphy.gif?cid=790b7611d890100338d26cdbb49c3145edcd87c2b0334287&rid=giphy.gif&ct=g" width="75%">
 
@@ -13,7 +13,7 @@ _Note: This project is only meant for desktop usage._
 
 A direct link to the project can be found [here](https://medsmamedel.vercel.app/).
 
-_Optionally:_
+_Want to access the project locally?_
 
 1. Clone this repository onto your computer.
 2. In your CLI type: `git clone x`
