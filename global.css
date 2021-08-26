@@ -1,6 +1,5 @@
 :root {
 	--beige: #ecebe4;
-
 	/* Main colors. */
 	--warmth: #e07c3e;
 	--earth: #686569;
@@ -28,6 +27,11 @@ a {
 	color: black;
 	text-decoration: none;
 	font-weight: bold;
+	transition: color 0.5s;
+}
+
+a:hover {
+	color: var(--warmth);
 }
 
 .warmth {
@@ -41,7 +45,7 @@ h1 {
 
 nav {
 	display: flex;
-	width: 80vw;
+	width: 900px;
 	justify-content: space-evenly;
 	height: 70px;
 	align-items: center;
@@ -56,12 +60,13 @@ h2 {
 
 article {
 	background-color: white;
-	margin: 2%;
-	padding: 2%;
+	margin: 20px;
+	padding: 20px;
 	border-radius: 5px;
-	width: 65vw;
+	width: 700px;
 }
 
+ul,
 li {
 	list-style-type: none;
 }
@@ -97,5 +102,46 @@ canvas {
 	}
 	100% {
 		opacity: 1;
+	}
+}
+
+/* Smartphones. */
+@media screen and (max-width: 560px) {
+	body {
+	}
+
+	nav {
+		width: 80vw;
+	}
+
+	canvas {
+		display: none;
+	}
+
+	article {
+		background-color: white;
+		margin: 10px;
+		padding: 10px;
+		border-radius: 5px;
+		width: 80vw;
+	}
+}
+
+/* Tablets. */
+@media screen and (max-width: 767px) {
+	nav {
+		width: 80vw;
+	}
+
+	canvas {
+		display: none;
+	}
+
+	article {
+		background-color: white;
+		margin: 10px;
+		padding: 10px;
+		border-radius: 5px;
+		width: 80vw;
 	}
 }
