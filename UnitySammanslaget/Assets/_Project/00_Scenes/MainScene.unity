@@ -793,7 +793,7 @@ MonoBehaviour:
   delayTime: 0
   fadeInTime: 2
   autoFadeOut: 0
-  visibleTime: 3
+  visibleTime: 1
   fadeOutTime: 0.5
   gameObjectsToActivate:
   - {fileID: 990935253}
@@ -4239,6 +4239,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1040792471}
+  - component: {fileID: 1040792475}
   - component: {fileID: 1040792474}
   - component: {fileID: 1040792473}
   - component: {fileID: 1040792472}
@@ -4363,6 +4364,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1040792470}
   m_CullTransparentMesh: 1
+--- !u!114 &1040792475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040792470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a82bbad3fdc3a44dbe7b40ec6908e2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayTime: 0
+  fadeInTime: 1
+  autoFadeOut: 0
+  visibleTime: 3
+  fadeOutTime: 1
+  gameObjectsToActivate: []
 --- !u!1 &1050770764
 GameObject:
   m_ObjectHideFlags: 0

@@ -25,7 +25,7 @@ namespace _Project._01_Scripts
             recycling.FadeOut();
             cell.FadeOut();
 
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(4f);
             
             restartButton.SetActive(true);
         }
