@@ -14,6 +14,12 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: 'Lota Grotesque', Verdana, Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+	font-family: 'Lota Grotesque';
+	src: url('/assets/LotaGrotesqueRegular.otf') format('OpenType');
 }
 
 body {
@@ -28,6 +34,11 @@ h1 {
 	width: 200px;
 	justify-content: space-evenly;
 	color: var(--dusk);
+}
+
+.creators,
+h3 {
+	color: var(--ocean);
 }
 
 div {
@@ -59,23 +70,11 @@ nav {
 }
 
 canvas {
-	animation: fadeIn ease 3s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
 	border-radius: 10px;
 	box-shadow: 0 0 0 2px black;
 
 	/* */
 	margin-top: 10px;
-}
-
-@keyframes fadeIn {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
 }
 
 /* Articles. */
@@ -96,61 +95,4 @@ article {
 ul,
 li {
 	list-style-type: none;
-}
-
-/* Everything text. */
-
-@font-face {
-	font-family: 'Lota Grotesque';
-	src: url('/assets/LotaGrotesqueRegular.otf') format('OpenType');
-}
-
-* {
-	font-family: 'Lota Grotesque', Verdana, Arial, Helvetica, sans-serif;
-}
-
-.creators,
-h3 {
-	color: var(--ocean);
-}
-
-/* Smartphones. */
-@media screen and (max-width: 560px) {
-	body {
-	}
-
-	nav {
-		width: 80vw;
-	}
-
-	canvas {
-		display: none;
-	}
-
-	article {
-		background-color: white;
-		margin: 10px;
-		padding: 10px;
-		border-radius: 5px;
-		width: 80vw;
-	}
-}
-
-/* Tablets. */
-@media screen and (max-width: 767px) {
-	nav {
-		width: 80vw;
-	}
-
-	canvas {
-		display: none;
-	}
-
-	article {
-		background-color: white;
-		margin: 10px;
-		padding: 10px;
-		border-radius: 5px;
-		width: 80vw;
-	}
 }
