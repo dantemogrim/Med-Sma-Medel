@@ -13,20 +13,12 @@ _Note: This project is only meant for desktop usage._
 
 A direct link to the project can be found [here](https://medsmamedel.vercel.app/).
 
-_Want to access the project locally?_
-
-1. Clone this repository onto your computer.
-2. In your CLI type: `git clone x`
-3. Type `cd x`
-4. Followed by these commands: `x`.
-5. Your CLI should now have given you a localhost to access the project from. Type it in your url on your local browser and access the project from there.
-
 ## :seedling: Creators
 
-- [Alice Persdotter Rydberg]() _- Game Art_
+- [Alice Persdotter Rydberg](https://www.artstation.com/itsnoonytime) _- Game Art_
 - [Dante Mogrim](https://github.com/dantemogrim) _- Web Development_
-- [Emma Malinsdotter]() _- Screenwriting_
-- [Frida Holmer]() _- UX_
+- Emma Malinsdotter _- Screenwriting_
+- Frida Holmer _- UX_
 - [Linus Jonsson](https://github.com/linus-jonsson) _- Game Programming_
 
 ## :customs: License
