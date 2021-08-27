@@ -10,12 +10,9 @@ const config = {
 	productVersion: '1.0',
 };
 
-var container = document.querySelector('#unity-container');
-// var canvas = document.querySelector('#unity-canvas');
 const canvas = document.querySelector('canvas');
 var loadingBar = document.querySelector('#unity-loading-bar');
 var progressBarFull = document.querySelector('#unity-progress-bar-full');
-var fullscreenButton = document.querySelector('#unity-fullscreen-button');
 var mobileWarning = document.querySelector('#unity-mobile-warning');
 
 if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
@@ -25,9 +22,6 @@ if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
 	setTimeout(() => {
 		mobileWarning.style.display = 'none';
 	}, 5000);
-	// } else {
-	// 	canvas.style.width = '1040px';
-	// 	canvas.style.height = '585px';
 }
 loadingBar.style.display = 'block';
 

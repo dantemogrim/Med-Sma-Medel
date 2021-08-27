@@ -6,7 +6,5 @@ Texten
 
 ### annat
 
-- Vite
 - hopp
 - mobile warning
-- move font
