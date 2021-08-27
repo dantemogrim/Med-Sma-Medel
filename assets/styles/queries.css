@@ -1,8 +1,5 @@
 /* Smartphones. */
 @media screen and (max-width: 560px) {
-	body {
-	}
-
 	nav {
 		width: 80vw;
 	}
