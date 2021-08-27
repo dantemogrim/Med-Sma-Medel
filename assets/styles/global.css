@@ -102,7 +102,7 @@ li {
 
 @font-face {
 	font-family: 'Lota Grotesque';
-	src: url('LotaGrotesqueRegular.otf') format('OpenType');
+	src: url('/assets/LotaGrotesqueRegular.otf') format('OpenType');
 }
 
 * {
