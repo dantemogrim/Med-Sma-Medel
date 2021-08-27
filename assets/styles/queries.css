@@ -43,3 +43,11 @@
 		display: none;
 	}
 }
+
+/* Larger screens. */
+
+@media screen and (min-width: 1024px) {
+	#unity-mobile-warning {
+		display: none;
+	}
+}
