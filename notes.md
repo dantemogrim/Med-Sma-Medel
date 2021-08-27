@@ -1,20 +1,19 @@
 # Notes
 
+Texten
+
 ### css
 
-- "om oss" lite åt sidan, justera. _ hot reload javascript???? _
-- Så naven inte hamnar under canvas vid litet fönster.
+- Nav
+- Position absolute
+- Background color
+- Justify content
+- Margin-top
 
 ### annat
 
-- logotype baserat på titel + favicon.
-
-- understrykningar på länkarna?
-- länkarna ur funktion?
-
-- canvas i mobile?
-
----
-
-- döpa om projekt titel på github - prata med linus först
-- ändra länk till projektet.
+- Segt i slutscenen: snabba upp.
+- "Sätt på ljud" || "Stäng av ljud"
+- "Läs upp" || "Sluta läs upp"
+- Fattade inte att spelet hade tagit slut - förväntade sig ett typ
+- "Tack för att du spelade!" - Där kan ju också starta om vara?

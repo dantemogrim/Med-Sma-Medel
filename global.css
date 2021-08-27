@@ -10,14 +10,6 @@
 	--sun: #f6cd2d;
 }
 
-div {
-	color: var(--warmth);
-}
-
-svg {
-	width: 300px;
-}
-
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -27,8 +19,19 @@ svg {
 body {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	background-color: var(--beige);
+	align-items: center;
+}
+
+h1 {
+	display: flex;
+	width: 200px;
+	justify-content: space-evenly;
+	color: var(--dusk);
+}
+
+div {
+	color: var(--warmth);
 }
 
 a {
@@ -47,23 +50,32 @@ a:hover {
 	font-weight: bold;
 }
 
-h1 {
-	display: flex;
-	width: 200px;
-	justify-content: space-evenly;
-	color: var(--dusk);
-}
-
-img {
-	width: 200px;
-}
-
 nav {
 	display: flex;
 	width: 900px;
 	justify-content: space-evenly;
 	height: 70px;
 	align-items: center;
+}
+
+canvas {
+	animation: fadeIn ease 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	border-radius: 10px;
+	box-shadow: 0 0 0 2px black;
+
+	/* */
+	margin-top: 10px;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 /* Articles. */
@@ -100,24 +112,6 @@ li {
 .creators,
 h3 {
 	color: var(--ocean);
-}
-
-canvas {
-	animation: fadeIn ease 3s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
-	border-radius: 10px;
-
-	box-shadow: 0 0 0 2px black;
-}
-
-@keyframes fadeIn {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
 }
 
 /* Smartphones. */
