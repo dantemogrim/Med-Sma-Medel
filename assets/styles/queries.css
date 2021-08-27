@@ -1,11 +1,14 @@
 /* Smartphones. */
 @media screen and (max-width: 560px) {
-	nav {
-		width: 80vw;
+	body {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 50vh;
 	}
 
-	canvas {
-		display: none;
+	nav {
+		width: 80vw;
 	}
 
 	article {
@@ -21,10 +24,6 @@
 @media screen and (max-width: 767px) {
 	nav {
 		width: 80vw;
-	}
-
-	canvas {
-		display: none;
 	}
 
 	article {
