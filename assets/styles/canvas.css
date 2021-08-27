@@ -1,7 +1,6 @@
 canvas {
 	border-radius: 10px;
 	box-shadow: 0 0 0 2px black;
-	width: 80vw;
-	height: calc(80vw * 9 / 16);
-	max-width: 1000px;
+	width: 70vw;
+	height: calc(70vw * 9 / 16);
 }
