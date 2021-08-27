@@ -33,9 +33,6 @@ script.onload = () => {
 	})
 		.then((unityInstance) => {
 			loadingBar.style.display = 'none';
-			// fullscreenButton.onclick = () => {
-			// 	unityInstance.SetFullscreen(1);
-			// };
 		})
 		.catch((message) => {
 			alert(message);
