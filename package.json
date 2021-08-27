@@ -1,7 +1,12 @@
 {
-	"private": true,
-	"type": "module",
+	"name": "med-sma-medel",
+	"version": "0.0.0",
 	"scripts": {
-		"start": "npx servor . index.html 1337 --reload --browse"
+		"dev": "vite",
+		"build": "vite build",
+		"serve": "vite preview"
+	},
+	"devDependencies": {
+		"vite": "^2.5.1"
 	}
 }
