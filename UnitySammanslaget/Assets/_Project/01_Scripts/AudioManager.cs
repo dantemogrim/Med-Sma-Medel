@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using UnityEngine;
 
 namespace _Project._01_Scripts
@@ -111,6 +112,17 @@ namespace _Project._01_Scripts
             else {
                 SetVolume();
             }
+        }
+
+        public void PlayStreetBGWithDelay()
+        {
+            StartCoroutine(PlayBGWithDelayRoutine());
+        }
+
+        private IEnumerator PlayBGWithDelayRoutine()
+        {
+            yield return new WaitForSeconds(2f);
+            PlayBG("streetbg");
         }
     }
 }
