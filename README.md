@@ -7,7 +7,9 @@
 A five day group project with the goal to create an interactive digital story along with the theme "Kärleken Är Större" (Love Is Bigger).
 The client in mind, [The Rescue Mission](https://raddningsmissionen.se/english), wanted to find a way for more people to get involved and donate to their charity work - helping people in need.
 
-_Note: This project is only meant for desktop usage._
+_Note: This project is built with Unity's WebGL and is officially only compatable with desktop usage._
+
+> Winning contribution of the jury's vote @ [Yrgo's](https://www.yrgo.se/) annual [Sammanslaget Hackathon](https://sammanslaget.yrgo.se/hackathon) 2021! :trophy: :confetti_ball:
 
 ## :stew: Instructions
 
